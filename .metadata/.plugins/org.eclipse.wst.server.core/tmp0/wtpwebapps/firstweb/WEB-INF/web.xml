@@ -29,4 +29,34 @@
     <servlet-name>LifecycleServlet</servlet-name>
     <url-pattern>/LifecycleServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>HeaderServlet</display-name>
+    <servlet-name>HeaderServlet</servlet-name>
+    <servlet-class>examples.HeaderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HeaderServlet</servlet-name>
+    <url-pattern>/Header</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ParameterServlet</display-name>
+    <servlet-name>ParameterServlet</servlet-name>
+    <servlet-class>examples.ParameterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ParameterServlet</servlet-name>
+    <url-pattern>/ParameterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>infoServlet</display-name>
+    <servlet-name>infoServlet</servlet-name>
+    <servlet-class>examples.infoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>infoServlet</servlet-name>
+    <url-pattern>/info</url-pattern>
+  </servlet-mapping>
 </web-app>
