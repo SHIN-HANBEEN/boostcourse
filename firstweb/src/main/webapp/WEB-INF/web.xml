@@ -59,4 +59,54 @@
     <servlet-name>infoServlet</servlet-name>
     <url-pattern>/info</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FrontServlet</display-name>
+    <servlet-name>FrontServlet</servlet-name>
+    <servlet-class>examples.FrontServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FrontServlet</servlet-name>
+    <url-pattern>/Front</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>NextServlet</display-name>
+    <servlet-name>NextServlet</servlet-name>
+    <servlet-class>examples.NextServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NextServlet</servlet-name>
+    <url-pattern>/next</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogicServlet</display-name>
+    <servlet-name>LogicServlet</servlet-name>
+    <servlet-class>examples.LogicServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogicServlet</servlet-name>
+    <url-pattern>/logic</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ApplicationScope01</display-name>
+    <servlet-name>ApplicationScope01</servlet-name>
+    <servlet-class>examples.ApplicationScope01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ApplicationScope01</servlet-name>
+    <url-pattern>/ApplicationScope01</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ApplicationScope02</display-name>
+    <servlet-name>ApplicationScope02</servlet-name>
+    <servlet-class>examples.ApplicationScope02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ApplicationScope02</servlet-name>
+    <url-pattern>/ApplicationScope02</url-pattern>
+  </servlet-mapping>
 </web-app>
