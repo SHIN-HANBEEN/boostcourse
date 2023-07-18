@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<c:set var="score" scope="request" value="83" />
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<c:choose>
+	<c:when test="${score >= 90 }">
+		점수가 90점 이상이므로 A 학점입니다.
+	</c:when>
+	<c:when test="${score >= 80 }">
+		점수가 90점 이상이므로 A 학점입니다.
+	</c:when>
+	<c:otherwise test="${score >= 90 }">
+		점수가 90점 이상이므로 A 학점입니다.
+	</c:otherwise>
+</c:choose>
+</body>
+</html>
